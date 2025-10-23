@@ -5,7 +5,7 @@ import plotly.express as px
 car_data = pd.read_csv('vehicles_us.csv')
 hist_button = st.button('Construir histograma')
 
-print("App de Sprint 7: Roberto Pinto")
+st.markdown('**App de Sprint 7: Roberto Pinto**')
 
 if hist_button:
     st.write(
